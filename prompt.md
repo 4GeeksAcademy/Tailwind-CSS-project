@@ -1,34 +1,48 @@
-# My Dashboard Prompt
+# Simple Prompt: Amethyst Neo Studio
 
-Hey! Please build a simple and very nice website dashboard for me. 
+Hey! Please build a beautiful, modern, and highly visual dashboard for me. It should look very polished, with rounded cards, soft drop shadows, and a clean purple, white, and pink color palette.
 
-Use only HTML and Tailwind CSS v4. 
+Use ONLY HTML and Tailwind CSS v4. No React, Vue, or heavy JavaScript.
 
-Do not use React or JavaScript. 
-
-Use this exact link in the head:
+Include only this script tag in the head:
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-## Style Rules
-* Color: Dark purple background  with white text. It must look very clean and modern.
-* Responsive: Make it mobile first. It must stack on phones and look side-by-side on laptops.
+## Theme & Colors 
+- **Background:** Light gray  
+- **Card Styling:** Clean white backgrounds with highly rounded corners (rounded-3xl) and very soft, elegant shadows.
+- **Main Accent Color:** Deep purple for headers and progress bars.
+- **Highlight Color:** Bright pink  
+- **Clean Text:** Do not use "%" or "↑" icons in text layers. Write out words like "percent" or "up".
 
+---
 
-## What to put on the page (From Top to Bottom)
+What makes a dashboard "good"?
+Organize the dashboard into broad blocks:
 
-### 1. Header and Alert
-* A title: "Creator Metrics Studio"
-* A purple alert bar: "Live Alert: Instagram conversions up 5 percent!"
+1️⃣ Top block: Main outcome indicators (KPI):
 
-### 2. Top Section (3 Cards)
-* Card 1: Total Commissions (EUR 3,450.00)
-* Card 2: Conversion Volume (180 Sales)
-* Card 3: Engagement Efficiency (2.4 percent)
+Volume: sales, sign-ups, active users, impressions
+Revenue: revenue (commissions, sales), MRR (monthly recurring revenue in subscriptions), average selling price
+Engagement: engagement rate, total interactions, conversion rate
+Retention: churn (churn rate), persistence, completion rate of the sales or subscription process
+Performance: total conversions, click-through rate (CTR), conversion rate
+Satisfaction: loyalty score (NPS), satisfaction score (CSAT)
+Efficiency: cost per outcome, margin, lead times
+2️⃣ Middle block: "Drivers" (factors that explain the outcome):
 
-### 3. Middle Section (Two Columns on Laptop)
-* Left side: Progress bars for Instagram (45 percent), TikTok (35 percent), and YouTube (20 percent).
-* Right side: A list showing "Active Campaigns" (Summer Gear, Tech Unboxing, Makeup Review).
+Conversion by stage (sales funnel)
+Performance by platform (Instagram, TikTok, YouTube, etc.)
+Quality (qualified lead ratio, attendance rate, pass rate)
+Performance by product (which product generates more commissions and better conversion)
+Activity (posts published, stories, reels, videos by platform)
+Engagement (likes, comments, shares, saves by platform)
+3️⃣ Bottom block: Operational details (tables/lists, alerts):
 
-### 4. Bottom Section (Two Columns on Laptop)
-* Left side: A clean table for Product Premium Alpha (EUR 50), Beta (EUR 120), and Gamma (EUR 80) with 15 percent commission details.
-* Right side: A small box with "Growth Tips" (TikTok focus, Bio Link).
+Products table: price, commissions generated, conversions, ROI per product
+Platforms table: reach, engagement, conversions, best platform by metric
+Campaigns table: dates, products promoted, results, performance
+Alerts: sharp drops in conversion, conversion spikes, performance anomalies
+Lists with filters: "top products", "top platforms", "top campaigns", "improvement opportunities"
+---
+
+Please generate the code to be incredibly clean, highly visual, and super easy for a beginner to modify and present!
