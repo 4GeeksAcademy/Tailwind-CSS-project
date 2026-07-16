@@ -1,29 +1,34 @@
-Help me build a simple dashboard project using ONLY basic HTML and Tailwind CSS v4. 
+# My Dashboard Prompt
 
-## Important Rules
-* Use ONLY  HTML and Tailwind CSS. No React, no Vue, and no complex JavaScript.
-* Use Tailwind CSS v4. Include exactly this script in the head tag:
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-* Do NOT use cdn.tailwindcss.com or old Tailwind v3 classes.
-* Use Mobile First design. The layout must stack vertically on mobile screens and use md: classes to spread out on laptop screens.
-* Do not use arrow symbols or special characters in the text layers. Write out words like percent or up.
+Hey! Please build a simple and very nice website dashboard for me. 
 
-## Dashboard Structure (3 Blocks)
+Use only HTML and Tailwind CSS v4. 
 
-1. TOP BLOCK: 3 Metric Cards
-   * Card 1: Total Commissions (EUR 3,450.00)
-   * Card 2: Total Sales (180)
-   * Card 3: Conversion Rate (2.4 percent)
+Do not use React or JavaScript. 
 
-2. MIDDLE BLOCK: 3 Platform Drivers
-   * Simple horizontal progress bars for Instagram, TikTok, and YouTube to show where the traffic comes from.
+Use this exact link in the head:
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-3. BOTTOM BLOCK: Operational Table
-   * A basic, clean HTML table using table, thead, and tbody tags.
-   * Columns: Product Name, Price, Commission (15 percent), Units Sold, Total Revenue.
-   * Rows: Product A (EUR 50), Product B (EUR 120), Product C (EUR 80).
+## Style Rules
+* Color: Dark purple background  with white text. It must look very clean and modern.
+* Responsive: Make it mobile first. It must stack on phones and look side-by-side on laptops.
 
-## Design Guidelines
-* Use clean, repeating design patterns for the cards so they look consistent.
-* Use simple spacing utilities like p-4, gap-4, and space-y-4.
-* Keep text clear, scannable, and fully visible on small mobile viewports.
+
+## What to put on the page (From Top to Bottom)
+
+### 1. Header and Alert
+* A title: "Creator Metrics Studio"
+* A purple alert bar: "Live Alert: Instagram conversions up 5 percent!"
+
+### 2. Top Section (3 Cards)
+* Card 1: Total Commissions (EUR 3,450.00)
+* Card 2: Conversion Volume (180 Sales)
+* Card 3: Engagement Efficiency (2.4 percent)
+
+### 3. Middle Section (Two Columns on Laptop)
+* Left side: Progress bars for Instagram (45 percent), TikTok (35 percent), and YouTube (20 percent).
+* Right side: A list showing "Active Campaigns" (Summer Gear, Tech Unboxing, Makeup Review).
+
+### 4. Bottom Section (Two Columns on Laptop)
+* Left side: A clean table for Product Premium Alpha (EUR 50), Beta (EUR 120), and Gamma (EUR 80) with 15 percent commission details.
+* Right side: A small box with "Growth Tips" (TikTok focus, Bio Link).
