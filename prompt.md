@@ -1,6 +1,5 @@
-# Simple Prompt: Amethyst Neo Studio
-
-Hey! Please build a beautiful, modern, and highly visual dashboard for me. It should look very polished, with rounded cards, soft drop shadows, and a clean purple, white, and pink color palette.
+# Amethyst Neo Studio
+build a beautiful, modern, and highly visual dashboard for me. It should look very polished, with rounded cards, soft drop shadows, and a clean purple, white, and pink color palette.
 
 Use ONLY HTML and Tailwind CSS v4. No React, Vue, or heavy JavaScript.
 
